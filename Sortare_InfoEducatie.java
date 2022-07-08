@@ -133,7 +133,7 @@ public class Sortare_InfoEducatie extends LinearOpMode {
 
                 while (detectierosu == 0 && opModeIsActive()) {
                     //range scalar rosu
-                    scalarLowerYCrCb = new Scalar(0.0, 190.0, 0.0);
+                    scalarLowerYCrCb = new Scalar(0.0, 170.0, 0.0);
                     scalarUpperYCrCb = new Scalar(255.0, 255.0, 128.0);
 
                     pipeline.configureScalarLower(scalarLowerYCrCb.val[0], scalarLowerYCrCb.val[1], scalarLowerYCrCb.val[2]);
@@ -150,8 +150,8 @@ public class Sortare_InfoEducatie extends LinearOpMode {
 
                 while (detectiealbastru == 0 && opModeIsActive()) {
                     //range scalar albastru
-                    scalarLowerYCrCb = new Scalar(0.0, 0.0, 160.0);
-                    scalarUpperYCrCb = new Scalar(255.0, 130.0, 255.0);
+                    scalarLowerYCrCb = new Scalar(0.0, 0.0, 140.0);
+                    scalarUpperYCrCb = new Scalar(255.0, 100.0, 255.0);
 
                     pipeline.configureScalarLower(scalarLowerYCrCb.val[0], scalarLowerYCrCb.val[1], scalarLowerYCrCb.val[2]);
                     pipeline.configureScalarUpper(scalarUpperYCrCb.val[0], scalarUpperYCrCb.val[1], scalarUpperYCrCb.val[2]);
