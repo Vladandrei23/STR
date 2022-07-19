@@ -15,6 +15,8 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class ContourPipeline extends OpenCvPipeline {
+    
+    // Credits to 7303 RoboAvatars & 3954 Pink to the Future
 
     // Green                                             Y      Cr     Cb
     public static Scalar scalarLowerYCrCb = new Scalar(  0.0, 0.0, 0.0);
